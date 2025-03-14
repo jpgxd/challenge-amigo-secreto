@@ -29,3 +29,14 @@ function atualizarListaAmigos() {
     }
 }
 
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("Adicione pelo menos um amigo antes de sortear!");
+        return;
+    }
+    
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    const amigoSorteado = amigos[indiceAleatorio];
+    const elementoResultado = document.getElementById("resultado");
+    elementoResultado.innerHTML = `<li>Amigo sorteado: ${amigoSorteado}</li>`;
+}
