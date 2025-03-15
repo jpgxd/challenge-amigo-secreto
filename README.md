@@ -59,7 +59,7 @@ O HTML e CSS foram fornecidos pela plataforma, permitindo o foco total no desenv
 
 ## Como executar o projeto
 
-## Instalação
+Instalação
 
 1. Clone o repositório:
    ```
